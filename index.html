@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Demo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form id="loginform" novalidate>
+      <h1>Welcome back &#128075;&#127995;</h1>
+      <p class="text">Sign in to continue to your demo account.</p>
+      <div class="mail">
+      <label for="email">Email or username</label><br>
+      <input id="email" type="text" name="email or username" 
+      class="js-email-input"><br>
+      <p class="js-email-error error"></p>
+      <p class="js-email-format error"></p>
+    
+      <label for="password">Password</label><br>
+      <input id="password" type="password" name="password" class="js-password-input">
+      <p class="js-password-error error"></p>
+      <p class="js-password-short error"></p>
+      </div>
+
+      <div class="project">
+          <label><input type="checkbox" name="checkbox"> Remember me </label>
+          <a href='forgot'>forgot password?</a>
+      </div>
+
+      <button onclick="validateEmailorPassword();" type="button" class="btn">Sign in</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
