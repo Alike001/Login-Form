@@ -1,35 +1,35 @@
-**Login Form**
+# Login Form
 
 A simple login form built with HTML, CSS, and JavaScript.
 
 This project demonstrates my understanding of JavaScript conditionals, DOM manipulation, and validation flow.
 
-**Features**
+## Features
 
-Clean and responsive login UI
+- Clean and responsive login UI
 
-Empty field validation
+- Empty field validation
 
-Email format validation
+- Email format validation
 
-Password length validation
+- Password length validation
 
-Clear and specific error messages
+- Clear and specific error messages
 
-**Built With**
+## Built With
 
-HTML
+- HTML
 
-CSS
+- CSS
 
-JavaScript
+- JavaScript
 
-**Validation Logic**
+## Validation Logic
 
-Checks for empty email and password fields
+- Checks for empty email and password fields
 
-Validates email format.
+- Validates email format.
 
-Ensures password meets minimum length requirement
+- Ensures password meets minimum length requirement
 
-Stops validation once an error is detected
+- Stops validation once an error is detected
